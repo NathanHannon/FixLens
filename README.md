@@ -60,4 +60,4 @@ In PowerShell, use `Copy-Item` in place of `cp`.
 ## Verify
 
 - API unit tests run with `npm test` in `nst-fixlens/`. PostgreSQL integration tests require a separate empty test database. [API test setup](nst-fixlens/README.md#verification)
-- App unit tests run with `npm test` in `rct-fixlens/`. The Playwright suite uses fixture responses to exercise the capture and report flow. [Browser test setup](rct-fixlens/README.md#web-preview-and-checks)
+- App unit tests run with `npm test` in `rct-fixlens/`. The Playwright suite uses fixture responses to exercise the capture and report flow. You can set `EXPO_PUBLIC_API_URL=http://api.fixlens.test` in `.env.local` for these tests, then run `npm run test:browser` without starting the API or configuring Spaces. [Browser test setup](rct-fixlens/README.md#web-preview-and-checks)
