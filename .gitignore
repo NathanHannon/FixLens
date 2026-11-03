@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.expo/
+.tmp/
+coverage/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*.log
+*.key
+*.pem
+*.crt
+.DS_Store

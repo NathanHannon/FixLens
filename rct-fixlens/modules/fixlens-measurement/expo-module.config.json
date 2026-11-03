@@ -1,0 +1,1 @@
+{"platforms":["apple","android"],"apple":{"modules":["FixlensMeasurementModule"]},"android":{"modules":["expo.modules.fixlensmeasurement.FixlensMeasurementModule"]}}
